@@ -1,11 +1,11 @@
-const initialState={
-    counter:0
-  };
+var initialState=0;
   export function CounterReducer(state=initialState,action){
     switch(action.type){
       case 'INCREMENT':
-        return {...state, counter: state.counter + 1};
-        default:
+        return state + 1;
+      case 'DECREMENT':
+        return state - 1;
+      default:
         return state;
     }
   }
