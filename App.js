@@ -1,5 +1,4 @@
-import {CounterOutput} from "./counterOutput.js";
-import {CounterOutput1} from "./counterOutput.js";
+import {CounterOutput,CounterOutput1} from "./counterOutput.js";
 import {CounterInput} from "./counterInput.js";
 export function App() {
   return (
