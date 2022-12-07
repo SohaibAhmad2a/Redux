@@ -1,3 +1,5 @@
+# Installations
+I pushed only those files that I changed. If you want to run these files, first initiate the react library in any directory, then paste these files in the src folder. Now install react and react-redux libraries, they can be installed separately as well as together through the command <em>npm install redux react-redux</em>. Once it is done, then run "npm start" in cmd.
 # How to Manage State Using Redux and React-Redux?
 Redux is use to manage state globally. To understand how redux works, start with the file index.js. Two components \<App /> and \<App1 /> are rendered in index.js, only understand anyone of the two in order
 to find out how redux works. I only rendered two components, \<App /> and \<App1 />, to show that initial state while creating reducer can or can't be an object. 
