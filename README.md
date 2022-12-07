@@ -1,4 +1,4 @@
-# How to Use Redux?
+# How to Manage State Using Redux and React-Redux?
 Redux is use to manage state globally. To understand how redux works, start with the file index.js. Two components \<App /> and \<App1 /> are rendered in index.js, only understand anyone of the two in order
 to find out how redux works. I only rendered two components, \<App /> and \<App1 />, to show that initial state while creating reducer can or can't be an object. 
 To avoid any confusion just understand anyone of the two components. There are four main parts to use Redux.
